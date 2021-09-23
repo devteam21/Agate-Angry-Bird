@@ -7,8 +7,8 @@ public class TrailController : MonoBehaviour
     public GameObject Trail;
     public Bird targetBird;
     private List<GameObject> trails;
-
     private void Start()
+    
     {
         trails = new List<GameObject>();
     }

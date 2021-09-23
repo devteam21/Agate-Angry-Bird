@@ -9,14 +9,11 @@ public class Bird : MonoBehaviour
     public GameObject Parent;
     public Rigidbody2D birdRigidbody;
     public CircleCollider2D birdCollider;
-
     private BirdState state;
     private float minVelocity = 0.05f;
     private bool flagDestroy = false;
-
     public UnityAction OnBirdDestroyed = delegate { };
     public UnityAction<Bird> OnBirdShot = delegate { };
-
     public BirdState State { get => state; private set => state = value; }
 
     private void Start()
@@ -46,12 +43,6 @@ public class Bird : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void MoveTo(Vector2 target, GameObject parent)
-    {
-        gameObject.transform.SetParent(parent.transform);
-        gameObject.transform.position = target;
-    }
-
     public void Shoot(Vector2 velocity, float distance, float speed)
     {
         birdCollider.enabled = true;
@@ -60,9 +51,10 @@ public class Bird : MonoBehaviour
         OnBirdShot(this);
     }
 
-    public virtual void OnTap()
+    public void MoveTo(Vector2 target, GameObject parent)
     {
-
+        gameObject.transform.SetParent(parent.transform);
+        gameObject.transform.position = target;
     }
 
     private void OnDestroy()

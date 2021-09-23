@@ -31,7 +31,14 @@ public class GameController : MonoBehaviour
         shotBird = birds[0];
     }
 
-    public void ChangeBird()
+    public void AssignTrail(Bird selectedBird)
+    {
+        trailController.SetBird(selectedBird);
+        StartCoroutine(trailController.SpawnTrails());
+        tapCollider.enabled = true;
+    }
+
+     public void ChangeBird()
     {
         tapCollider.enabled = false;
 
@@ -44,13 +51,6 @@ public class GameController : MonoBehaviour
             slingShooter.InitiateBird(birds[0]);
             shotBird = birds[0];
         }
-    }
-
-    public void AssignTrail(Bird selectedBird)
-    {
-        trailController.SetBird(selectedBird);
-        StartCoroutine(trailController.SpawnTrails());
-        tapCollider.enabled = true;
     }
 
     public void CheckGameEnd(GameObject destroyedEnemy)

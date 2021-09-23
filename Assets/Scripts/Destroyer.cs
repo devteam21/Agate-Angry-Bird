@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Destroyer : MonoBehaviour
 {
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         string collisionTag = collision.gameObject.tag;
@@ -12,4 +13,5 @@ public class Destroyer : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+    s
 }

@@ -4,11 +4,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SlingShooter : MonoBehaviour
+
 {
-    public CircleCollider2D collider;
-    private Vector2 startPos;
     [SerializeField] private float radius = 0.75f;
     [SerializeField] private float throwSpeed = 30f;
+
+    public CircleCollider2D collider;
+    private Vector2 startPos;
     private Bird birdInSling;
     public LineRenderer trajectoryRenderer;
 
