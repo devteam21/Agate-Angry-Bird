@@ -1,5 +1,5 @@
 # Angry Bird
-Hit another bird to win!
+Hit PIG to win!
 
 ### Additional features :
 1. Backsound by https://www.youtube.com/watch?v=DehK_Y0TUbE
