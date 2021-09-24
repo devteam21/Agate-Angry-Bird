@@ -16,4 +16,5 @@ Hit PIG to win!
 3. Play and smile.
 
 ## Example Scene
-![image](https://user-images.githubusercontent.com/19890311/134052022-a7f1f8b5-360c-4667-8ef0-3cfed9e6222d.png)
+![Untitled](https://user-images.githubusercontent.com/19890311/134629923-60d3976e-e2ad-41fd-a65c-9330f872b55e.png)
+
