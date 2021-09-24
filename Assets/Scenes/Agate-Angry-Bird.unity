@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 352087544}
   - component: {fileID: 352087547}
   m_Layer: 0
-  m_Name: RedBird (1)
+  m_Name: Red
   m_TagString: Bird
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,7 +140,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 352087542}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.13, y: -2.85, z: 0}
+  m_LocalPosition: {x: -6.49, y: -2.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1479087337}
@@ -448,6 +448,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Environment
       objectReference: {fileID: 0}
+    - target: {fileID: 4431414379313203923, guid: 3f60551be8ec56543829c00b8301f99b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431414379313203923, guid: 3f60551be8ec56543829c00b8301f99b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.12
+      objectReference: {fileID: 0}
     - target: {fileID: 4431414380145585830, guid: 3f60551be8ec56543829c00b8301f99b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -503,6 +513,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4431414380389424227, guid: 3f60551be8ec56543829c00b8301f99b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431414380389424227, guid: 3f60551be8ec56543829c00b8301f99b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.17
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f60551be8ec56543829c00b8301f99b, type: 3}
 --- !u!1 &704820841
@@ -533,7 +553,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 704820841}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.68, y: -0.45, z: 0}
+  m_LocalPosition: {x: 7.65, y: -0.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 971329871}
@@ -651,7 +671,7 @@ GameObject:
   - component: {fileID: 757358122}
   - component: {fileID: 757358121}
   m_Layer: 0
-  m_Name: Yellow Bird
+  m_Name: Yellow
   m_TagString: Bird
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -766,7 +786,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757358120}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.51, y: -2.98, z: 0}
+  m_LocalPosition: {x: -7.95, y: -2.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1479087337}
@@ -786,7 +806,7 @@ GameObject:
   - component: {fileID: 762739773}
   - component: {fileID: 762739775}
   m_Layer: 0
-  m_Name: RedBird
+  m_Name: Owl
   m_TagString: Bird
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -829,7 +849,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 8d65fab5aa828d7439359b962c57d921, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8d20e3fb65723114693388b7b8c277c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -848,7 +868,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762739770}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.4, y: -1.87, z: 0}
+  m_LocalPosition: {x: -8.41, y: -1.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1479087337}
@@ -1985,7 +2005,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125343259}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.59, y: -0.45, z: 0}
+  m_LocalPosition: {x: 7.86, y: -2.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 971329871}
